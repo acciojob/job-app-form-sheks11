@@ -12,11 +12,47 @@
 </script>
 
 </body>
-<forms>
+<forms method="get">
 	<div>
-		<label for="name">Name*</label>
-		<input type="text" required>
+		<label for="#name">Name*</label>
+		<input type="text" id="#name" required>
 	</div>
+	<div>
+		<label for="#email">Email*</label>
+		<input type="email" id="#email" required>
+	</div>
+	<div>
+		<label>Gender*</label>	
+		<label for="male">Male</label>
+		<input type="radio"  id="#male" name="gender" required>
+		<label for="female">Female</label>
+		<input type="radio"  id="#female" name="gender" required>
+		<label for="others">Other</label>
+		<input type="radio" id="#others" name="gender" required>
+	</div>
+	<div>
+		<label>Laptop Brands</label>
+		<label for="apple">Apple</label>
+		<input type="checkbox" id="#apple">
+		<label for="asus">Asus</label>
+		<input type="checkbox" id="#asus">
+		<label for="hp">HP</label>
+		<input type="checkbox" id="#hp">
+	</div>
+	<div>
+		<label for="#age">Age*</label>
+		<input type="number" id="#age" required>
+	</div>
+	<div>
+		<label for="#dob">DOB*</label>
+		<input type="date" id="#dob" required>
+	</div>
+	<div>
+		<label for="#password">Password*</label>
+		<input type="password" id="#password" required>
+	</div>
+	<button type="submit">Submit</button>
+	
 </forms>
 
 </html>
